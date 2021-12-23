@@ -1,0 +1,37 @@
+{
+    "name": "personal-website",
+    "version": "0.0.1",
+    "title": "Jacob Johnkoski",
+    "description": "My personal website built with backbone.js",
+    "homepage": "",
+    "bugs": "",
+    "keywords": [],
+    "private": true,
+    "contributors": [
+        "Jacob Johnkoski <jacobjohnkoski@gmail.com>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jjohnkoski/personal-website"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "grunt-notify": "*",
+        "grunt-newer": "*",
+        "load-grunt-tasks": "*",
+        "grunt-contrib-jshint": "*",
+        "grunt-contrib-clean": "*",
+        "grunt-mustache": "*",
+        "grunt-mustache-render": "*",
+        "grunt-contrib-cssmin": "*",
+        "grunt-contrib-copy": "*",
+        "grunt-concurrent": "*",
+        "grunt-contrib-watch": "*"
+    },
+    "scripts": {
+        "initiate": "npm install; bower install; grunt staging; grunt watcher",
+        "watch": "grunt watcher",
+        "stage": "grunt staging",
+        "release": "bower update; grunt release"
+    }
+}

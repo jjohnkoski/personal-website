@@ -1,0 +1,14 @@
+{
+    "name": "personal-website",
+    "version": "0.0.1",
+    "authors": [
+        "Jacob Johnkoski <jacobjohnkoski@gmail.com>"
+    ],
+    "dependencies": {
+        "jquery": "*",
+        "requirejs": "*",
+        "underscore": "*",
+        "backbone": "*",
+        "bootstrap": "*"
+    }
+}
